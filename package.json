@@ -1,7 +1,17 @@
 {
   "name": "pipedrive-bling-integration",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "author": "Leonardo Jesus <leonardojesus02@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
