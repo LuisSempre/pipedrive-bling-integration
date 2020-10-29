@@ -49,8 +49,8 @@ The ***Pipedrive + Bling***, is a Integration that **use NodeJS and Javascript**
 ## 🏃 How to Run
 - Make a fork;
 - Open the project on your terminal;
-- Run `yarn install` to install Dependencies;
-- Run `yarn dev` to run the server;
+- Run `yarn install` or `npm install` to install Dependencies;
+- Run `yarn dev` or `npm run dev` to run the server;
 - By default the server will run at `localhost:3333`.
 
 ## 🤔 How to contribute
