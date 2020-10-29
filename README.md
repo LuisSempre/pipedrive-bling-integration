@@ -1,6 +1,6 @@
 
 <p align="center">
-	<h1 align="center">Pidrive + Bling Integration :bear:</h1>
+	<h1 align="center">Pidrive + Bling :bear:</h1>
 </p>
 
 <p align="center">
