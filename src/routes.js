@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const ListAllDeals = require('./services/ListAllDeals');
-const ListWonDeals = require('./services/ListWonDeals');
+const ListAllDealsController = require('./controllers/ListAllDealsController');
+const ListWonDealsController = require('./controllers/ListWonDealsController');
 
 const pipedriveAPIToken = process.env.PIPEDRIVE_API_TOKEN;
 
-router.get('/deals', ListAllDeals.store);
+router.get('/deals', ListAllDealsController.store);
 
-router.get('/deals/won', ListWonDeals.store);
+router.get('/deals/won', ListWonDealsController.store);
 
 
 
