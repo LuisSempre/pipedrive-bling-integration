@@ -52,6 +52,7 @@ The ***Pipedrive + Bling***, is a Integration that **use NodeJS and Javascript**
 - Run `yarn install` or `npm install` to install Dependencies;
 - Run `yarn dev` or `npm run dev` to run the server;
 - By default the server will run at `localhost:3333`.
+#### More informations at [API's Documentation](https://web.postman.co/collections/11958037-c9cb3bbf-4c33-4444-93bc-5d0970e3f3dd?version=latest&workspace=85df5515-e9c1-4438-8fbb-a840b6b82ce7#b8d7421c-0856-4a8f-a14b-4b3e8a38e65b)
 
 ## 🤔 How to contribute
 
