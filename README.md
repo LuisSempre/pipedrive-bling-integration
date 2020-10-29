@@ -44,7 +44,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The ***Pipedrive + Bling***, is a Integration that **use NodeJS and Javascript**, with purpose to became a **Kapi :bear::green_heart:**. The API search at *Pipedrive* for deals with status equal to won, and insert them as Buy Order at *Bling*. Made with **Javscript**, **NodeJS**, **Express**, **MongoDB**, **Pipedrive API** and **Bling API**.
+The ***Pipedrive + Bling***, is a Integration that **use NodeJS and Javascript**, *with purpose to achieve my goal which is become a **Kapi* :bear::green_heart:**. The API search at *Pipedrive* for deals with status equal to won, and insert them as Buy Order at *Bling*. Made with **Javscript**, **NodeJS**, **Express**, **MongoDB**, **Pipedrive API** and **Bling API**.
 
 ## 🏃 How to Run
 - Make a fork;
