@@ -5,7 +5,8 @@
   "author": "Leonardo Jesus <leonardojesus02@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
