@@ -29,7 +29,7 @@
 
 ## 🎉 Bonus
 - Endpoint to List all Deals from [Pipedrive's API](https://developers.pipedrive.com/docs/api/v1/)
-- [API's Documentation at Postman](https://web.postman.co/collections/11958037-c9cb3bbf-4c33-4444-93bc-5d0970e3f3dd?version=latest&workspace=85df5515-e9c1-4438-8fbb-a840b6b82ce7#b8d7421c-0856-4a8f-a14b-4b3e8a38e65b)
+- [API's Documentation at Postman](https://documenter.getpostman.com/view/11958037/TVYKZvnE)
 
 ## 🚀 Technologies
 
