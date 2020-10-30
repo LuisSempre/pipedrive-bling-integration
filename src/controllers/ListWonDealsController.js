@@ -1,4 +1,5 @@
 const axios = require('axios');
+const orderRepository = require('../repositories/orderRepository');
 const CreateOrderService = require('../services/createOrder');
 
 const pipedriveAPIToken = process.env.PIPEDRIVE_API_TOKEN;
@@ -10,6 +11,8 @@ class ListWonDealsController {
 
       const { data } = response.data;
       const orders = await CreateOrderService.create(data);
+
+      await orderRepository.saveOrder(orders);
 
       return res.json(orders);
     } catch (error) {
