@@ -28,8 +28,9 @@
 ✔️ Create a endpoint to return data from MongoDB's collection
 
 ## 🎉 Bonus
-- Endpoint to List all Deals from [Pipedrive's API](https://developers.pipedrive.com/docs/api/v1/)
+- [API's Deploy on Heroku](https://pipedrive-bling-api.herokuapp.com)
 - [API's Documentation at Postman](https://documenter.getpostman.com/view/11958037/TVYKZvnE)
+- Endpoint to List all Deals from [Pipedrive's API](https://developers.pipedrive.com/docs/api/v1/)
 
 ## 🚀 Technologies
 
