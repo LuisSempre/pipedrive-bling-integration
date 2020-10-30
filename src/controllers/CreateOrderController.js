@@ -10,6 +10,10 @@ class CreateOrderController {
       
       const orders = await CreateOrderService.create(response);
 
+      if(!orders[0]) {
+        return res.status(400).json({ message: 'User already registered' }); 
+      };
+      
       await orderRepository.saveOrder(orders);
 
       return res.json(orders);
