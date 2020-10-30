@@ -4,7 +4,7 @@ const pipedrive_api_url = require('../config/pipedrive');
 const pipedriveAPIToken = process.env.PIPEDRIVE_API_TOKEN;
 
 class ListAllDealsController {
-  async store(req, res) {
+  async index(req, res) {
     try {
       const response = await axios.get(`${pipedrive_api_url}/deals?api_token=${pipedriveAPIToken}`);
       return res.json(response.data);

@@ -1,7 +1,7 @@
 const orderRepository = require('../repositories/orderRepository');
 
 class ListAllOrdersController {
-  async store(req, res) {
+  async index(req, res) {
     try {
       const orders = await orderRepository.ordersPerDate();
       return res.json(orders);
