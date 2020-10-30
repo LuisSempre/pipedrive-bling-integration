@@ -82,8 +82,6 @@ module.exports = {
         ]
       }, false);
 
-      const finalXML = `<?xml version="1.0" encoding="UTF-8"?>${xml}`
-
       try {
         const orderData = await axios.post(`${bling_api_url}/pedido/json/?apikey=${blingApiKey}&xml=${xml}`);
         const { pedido } = orderData.data.retorno.pedidos[0];
