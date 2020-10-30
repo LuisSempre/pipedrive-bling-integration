@@ -12,7 +12,7 @@ module.exports = {
           {
             name: 'cliente',
             children: [
-              { name: 'nome', text: deal.org_id.name || 'Company' },
+              { name: 'nome', text: deal.org_id.name ? deal.org_id.name : 'Company' },
               { name: 'tipoPessoa', text: 'J' },
               { name: 'endereco', text: 'Av. Paulista' },
               { name: 'ie_rg', text: '3067663210' },
@@ -84,6 +84,13 @@ module.exports = {
 
       try {
         const orderData = await axios.post(`${bling_api_url}/pedido/json/?apikey=${blingApiKey}&xml=${xml}`);
+        // if (orderData.data.retorno.erros[0].erro.cod === 30) {
+        //   return { message: 'User already registered' };
+        // };
+
+        if (orderData.data.retorno.erros[0].erro.cod === 30) 
+          return; 
+
         const { pedido } = orderData.data.retorno.pedidos[0];
 
         pedido.value = deal.value;
@@ -95,10 +102,11 @@ module.exports = {
       };
     });
 
-    const CreatedOrders = Promise.all(orders).then((res) => {
-      return res;
+    const CreatedOrders = await Promise.all(orders).then((res) => {
+      const response = [res[res.length - 1]];
+      return response;
     });
-
+    
     return CreatedOrders;
   },
 };
