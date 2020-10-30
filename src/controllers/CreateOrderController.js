@@ -1,7 +1,7 @@
 const axios = require('axios');
 const orderRepository = require('../repositories/orderRepository');
 const CreateOrderService = require('../services/createOrder');
-const ListWonDealsController = require('./listWonDealsController');
+const ListWonDealsController = require('./ListWonDealsController');
 
 class CreateOrderController {
   async create(req, res) {
