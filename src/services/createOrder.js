@@ -84,10 +84,6 @@ module.exports = {
 
       try {
         const orderData = await axios.post(`${bling_api_url}/pedido/json/?apikey=${blingApiKey}&xml=${xml}`);
-        // if (orderData.data.retorno.erros[0].erro.cod === 30) {
-        //   return { message: 'User already registered' };
-        // };
-
         if (orderData.data.retorno.erros[0].erro.cod === 30) 
           return; 
 
