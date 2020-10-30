@@ -1,0 +1,1 @@
+module.exports = bling_api_url = 'https://bling.com.br/Api/v2';
