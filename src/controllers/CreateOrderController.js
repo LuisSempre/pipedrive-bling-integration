@@ -9,10 +9,7 @@ class CreateOrderController {
       const response = await ListWonDealsController.getWonDeals();
       
       const orders = await CreateOrderService.create(response);
-
-      if(!orders[0]) {
-        return res.status(400).json({ message: 'User already registered' }); 
-      };
+      console.log(orders.filter(Boolean))
       
       await orderRepository.saveOrder(orders);
 
