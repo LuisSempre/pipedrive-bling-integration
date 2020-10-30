@@ -25,7 +25,7 @@
 ✔️ Create a integrations between Pipedrive and Bling. (The ingration should search the deals with status equal to won at Pipedrive, after that insert as buy order at Bling)\
 ✔️ Create Mongo database\
 ✔️ Create a colletion at MongoDB database, adding the deals inserted on Bling, by day and total amount\
-✔️ Create a endpoint to return data from MongoDB's collection\
+✔️ Create a endpoint to return data from MongoDB's collection
 
 ## 🎉 Bonus
 - Endpoint to List all Deals from [Pipedrive's API](https://developers.pipedrive.com/docs/api/v1/)
